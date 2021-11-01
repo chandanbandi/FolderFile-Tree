@@ -1,0 +1,35 @@
+.d-tree-node {
+	background: #fff;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 1px;
+	padding: 0.8rem;
+}
+
+.d-tree-node:hover{
+    background: #dcdcdc;
+}
+
+.d-tree-toggler:not(.active) {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #000;
+	display: inline-block;
+	margin: 9px 0;
+	margin-right: .5%;
+}
+
+.d-tree-toggler.active{
+    width: 0;
+	height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #000;
+    display: inline-block;
+	margin: 9px 0;
+	margin-right: .5%;
+}
+
